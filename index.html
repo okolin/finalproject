@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('ggb.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      align=center
+      margin-left: auto;
+      margin-right: auto;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 700px;
+      font-size: 25px;
+      font-family: monospace;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        font-style: italic;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="ggb.jpg" align="center" style="margin-left: 200px; margin-right: auto;">
+    <h1 align="center">
+      Olga Kolin
+    </h1>
+    <ul align=center>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Career</a></li>
+      <li><a href="#">Vision</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About Me</h2>
+    <p> My name is Olga Kolin and I am a soon-to-be business finance graduate of Dominican University of California. Throughout my 3 years at Dominican, I have harnessed knowledge from not only my classes, but also from my peers, community, experiences and internships; all of which have shaped my goals as I close out this chapter of my life. </p>
+    <p>My love for the business world is endless and I am excited to pursue a long-time dream of working in the financial district of San Francisco. In June of 2019, I will be starting at Merrill Lynch as a financial advisor trainee. I am excited to dive into this new unknown and challenge myself in hopes of further developing my knowledge and growth.</p>
+    <p>Most importantly, I am beginning a journey of helping people attain wellness and happiness.</p>
+    <button>Like</button>
+  </article>
+
+  <div style="margin-left: 200px; margin-right: auto;">
+    <img src="DSC_0649.jpg" style="width:900px;height:600px;" margin-left: auto; margin-right: auto;>
+  </div>
+  <article>
+    <h2>Career</h2>
+    <p>My mission is to utilize my developing career as a financial advisor to help people better understand how to manage their financial lives. With a respect for finance and a love for people and relationship building, I strive to educate people how to attain financial well-being. I also have passion for health and fitness. Thus, I can combine my passions with my career to become a wellness advisor and help people live better lives in a holistic way.</p>
+    <button>Like</button>
+  </article>
+  <div style="margin-left: 200px; margin-right: auto;">
+    <img src="DSC_0033.jpg" style="width:900px;height:600px;" margin-left: auto; margin-right: auto;>
+  </div>
+  <article>
+    <h2>Vision</h2>
+    <p>Alongside building a career, I plan on further developing my many hobbies which include living an active and healthy lifestyle, wholesome cooking and the outdoors.</p>
+    <p>Financial wellness is important but so is our overall wellness. Along with taking care of our budgets, I hope to inspire people to also nourish their minds and bodies.</p>
+    <button>Like</button>
+  </article>
+  <div style="margin-left: 200px; margin-right: auto;">
+    <img src="sunset.jpeg" style="width:900px;height:600px;" margin-left: auto; margin-right: auto;>
+  </div>
+
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+
+<ul align=center>
+  <li><a href="#">About Me</a></li>
+  <li><a href="#">Career</a></li>
+  <li><a href="#">Vision</a></li>
+</ul>
